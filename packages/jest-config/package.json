@@ -1,5 +1,5 @@
 {
-  "name": "@repo/jest-config",
+  "name": "@core/jest-config",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -23,11 +23,6 @@
       "import": "./dist/nest.js",
       "require": "./dist/nest.js",
       "types": "./dist/nest.d.ts"
-    },
-    "./next": {
-      "import": "./dist/next.js",
-      "require": "./dist/next.js",
-      "types": "./dist/next.d.ts"
     }
   },
   "devDependencies": {
