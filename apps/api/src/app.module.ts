@@ -10,8 +10,8 @@ import { AppConfig } from './app.config';
   imports: [
     AppConfigModule.forRoot({ useClass: AppConfig }),
     HealthModule.forRootAsync({
-      useFactory: ({ serviceName }: AppConfig) => ({
-        name: serviceName,
+      useFactory: ({ swaggerOptions }: AppConfig) => ({
+        name: swaggerOptions.title,
       }),
       inject: [AppConfig],
     }),

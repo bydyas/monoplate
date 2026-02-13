@@ -15,7 +15,9 @@
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\""
   },
   "dependencies": {
-"@core/health": "*",
+    "@core/health": "*",
+    "@core/swagger": "*",
+    "@nestjs/swagger": "11.2.5",
     "nestjs-env-getter": "1.1.0",
     "@nestjs/common": "^11.1.11",
     "@nestjs/core": "^11.1.11",
